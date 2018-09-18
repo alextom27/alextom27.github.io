@@ -1,0 +1,142 @@
+
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 35px;
+}
+h3 {
+    font-size: 14px;
+}
+h4
+{
+color:black;
+font-size:1.2em;
+font-family:arial; 
+text-align: center;
+border-radius: 10px;
+background-color: rgba(255,255,255,0.6);
+position:absolute;
+top: 5px;
+left: 20px; 
+right:20px; 
+}
+h6
+{
+color:white;
+font-size:2em;
+font-family:arial; 
+top: 220px;
+left: 80px; 
+right:20px; 
+position: absolute;
+}
+
+
+.navbar-brand {
+    color: lightgrey !important;
+    font-size: 25px !important;
+    text-transform: capitalize;
+}
+.navbar-brand:hover {
+    color: white !important;
+}
+.navbar-nav a{
+    text-transform: capitalize;
+    color:lightgrey !important;
+}
+.navbar-nav a:hover{
+    background-color: lightslategray !important;
+    color: white !important;
+}
+
+.span1 {
+    font-size: 20px;
+}
+
+
+
+hr.style1 {
+	border-top: 2px solid grey;
+}
+a {
+    color: #999999 !important;
+} 
+a:hover {
+    color: lightblue !important;
+    text-decoration: none !important;
+}
+#blu {
+    background-color:lightblue;
+}
+#yellow {
+    background-color:  yellow;
+}
+.row-footer {
+    height: 120px;
+    background-color: gray;
+}
+.footerul {
+    list-style-type: none !important;
+    color:lightgray !important;
+}
+.row-blank {
+    height: 50px;
+}
+.row {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.card-body2 {
+    text-align: right;
+    padding: 10px;
+}
+table {
+    border-collapse: collapse !important;
+
+}
+
+table, td, th {
+    border: 2px solid black !important;
+    text-align: center;
+}
+.price {
+    color: orange !important;
+}
+.fellow-image {
+    position: relative;
+}
+.fellow-caption {
+    position: relative;
+    text-align: center;
+    z-index: 2;
+    top: 0;
+}
+
+
+.card-img-top {
+    opacity: 0.6;
+    z-index:1,
+}
+
+.card:hover
+.card-img-top {
+    opacity: 1
+}
+.card:hover
+h4
+{
+opacity: 0
+}
+
+.card:hover
+h6
+{
+color: white;
+font-size:1em;
+font-family:arial; 
+top: 300px;
+left:105px; 
+right:20px; 
+position: absolute;
+}
