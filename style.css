@@ -1,146 +1,233 @@
+@font-face {font-family:"Tengwar Annatar Italic";
+    src:url("police/tngani.eot?") format("eot"),
+    url("police/tngani.woff") format("woff"),
+    url("police/tngani.ttf") format("truetype"),
+    url("police/tngani.svg#TengwarAnnatar-Italic") format("svg");
+    font-weight:normal;font-style:normal;
+}
+@font-face {
+    font-family: 'partybusiness';
+    src:URL('police/partybusiness.ttf');
+}
 
+@font-face {
+font-family: 'anironcbold';
+src: url('police/anicb___-webfont.woff2') format('woff2'),
+     url('police/anicb___-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'anironregular';
+src: url('police/anirm___-webfont.woff2') format('woff2'),
+     url('police/anirm___-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+
+@font-face {
+font-family: 'anironcregular';
+src: url('anicm___-webfont.woff2') format('woff2'),
+     url('anicm___-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'anironbold';
+src: url('anirb___-webfont.woff2') format('woff2'),
+     url('anirb___-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+.wrapper {
+    border: 1px;
+    border-color: darkgrey;
+    background-image: url(images/bg_light.png);
+
+}
+h1, h2, h3, h4 {
+    font-family:'anironregular';
+
+}
 h1 {
-    font-size: 40px;
-}
-h2 {
-    font-size: 35px;
-}
-h3 {
-    font-size: 14px;
-}
-h4
-{
-color:black;
-font-size:1.2em;
-font-family:arial; 
-text-align: center;
-border-radius: 10px;
-background-color: rgba(255,255,255,0.6);
-position:absolute;
-top: 70px;
-left: 20px; 
-right:20px; 
-}
-h6
-{
-color:white;
-font-size:2em;
-font-family:arial; 
-top: 280px;
-left: 108px; 
-right:20px; 
-position: absolute;
+    font-family:'anironregular';
+    text-align: center;
 }
 
+.navbar {
+    background-color: #ff5f01;
+}
 
 .navbar-brand {
-    color: lightgrey !important;
-    font-size: 25px !important;
+    color: white;
     text-transform: capitalize;
 }
+.nav-item, .navbar-brand {
+    font-family: 'anironregular';
+}
 .navbar-brand:hover {
-    color: white !important;
+    color: white;
+    opacity: 0.7;
 }
 .navbar-nav a{
     text-transform: capitalize;
-    color:lightgrey !important;
+    color:white;
 }
 .navbar-nav a:hover{
-    background-color: lightslategray !important;
-    color: white !important;
+    color:white;
+    opacity: 0.7;
+}
+.nav-link{
+    border-right: 1px solid rgb(255, 202, 121);
 }
 
-.span1 {
-    font-size: 20px;
-}
-
-
-
-hr.style1 {
-	border-top: 2px solid grey;
-}
-a {
-    color: #999999 !important;
-} 
-a:hover {
-    color: lightblue !important;
-    text-decoration: none !important;
-}
-#blu {
-    background-color:lightblue;
-}
-#yellow {
-    background-color:  yellow;
-}
-.row-footer {
-    height: 120px;
-    background-color: gray;
+.footer {
+    background-color: #ff5f01;
+    padding-top: 20px;
 }
 .footerul {
     list-style-type: none !important;
-    color:lightgray !important;
+    font-family: 'anironregular';
+    font-size: 14px;
 }
-.row-blank {
+a {
+    color: white;
+}
+a:hover {
+    color:white;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+
+.ring1 {
+    width: 50px;
     height: 50px;
-}
-.row {
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
-.card-body2 {
-    text-align: right;
-    padding: 10px;
-}
-.card-body3 {
-    text-align: center;
-}
-table {
-    border-collapse: collapse !important;
-}
-.media-body {
-    padding: 15px;
-}
-
-table, td, th {
-    border: 2px solid black !important;
-    text-align: center;
-}
-.price {
-    color: orange !important;
-}
-.fellow-image {
+    border-width: 4px;
+    border-color: #ff5f01;
+    border-radius: 50%;
+    background: none;
+    margin: auto;
+    border-style: solid;
+    box-shadow: inset 3px 3px 3px 0px #e75500, 3px 3px 3px 0px #e75500;
+  }
+  
+  .ring2 {
+    width: 200px;
+    height: 200px;
+    border-width: 10px;
+    border-color: #fccc0a;
+    border-radius: 50%;
+    background: none;
+    margin: auto;
+    border-style: solid;
+    box-shadow: inset 3px 3px 3px 0px #eabc03, 3px 3px 3px 0px #eabc03;
+  }
+  
+  .ringLoop1 {
+    width: 20px;
+    height: 20px;
+    border: 7px solid #343434;
+    box-shadow: inset 5px 5px 5px 0px #343434, 5px 5px 5px 0px #343434;
+    margin-left: -7px;
+    border-radius: 200%;
+    z-index: 1;
     position: relative;
-}
-.fellow-caption {
+  }
+  
+  .ringLoop2 {
+    width: 40px;
+    height: 40px;
+    border: 7px solid #343434;
+    box-shadow: inset 5px 5px 5px 0px #343434, 5px 5px 5px 0px #343434;
+    margin-left: -14px;
+    border-radius: 200%;
+    z-index: 1;
     position: relative;
-    text-align: center;
-    z-index: 2;
-    top: 0;
+  }
+  
+  .ringLoop3 {
+    width: 60px;
+    height: 60px;
+    border: 7px solid #343434;
+    box-shadow: inset 5px 5px 5px 0px #343434, 5px 5px 5px 0px #343434;
+    margin-left: -21px;
+    border-radius: 200%;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .ringLoop4 {
+    width: 80px;
+    height: 80px;
+    border: 7px solid #343434;
+    box-shadow: inset 5px 5px 5px 0px #343434, 5px 5px 5px 0px #343434;
+    margin-left: -28px;
+    border-radius: 200%;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .ringLoop5 {
+    width: 100px;
+    height: 100px;
+    border: 7px solid #343434;
+    box-shadow: inset 5px 5px 5px 0px #343434, 5px 5px 5px 0px #343434;
+    margin-left: -35px;
+    border-radius: 200%;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .ringLoop6 {
+    width: 120px;
+    height: 120px;
+    border: 7px solid #343434;
+    box-shadow: inset 5px 5px 5px 0px #343434, 5px 5px 5px 0px #343434;
+    margin-left: -42px;
+    border-radius: 200%;
+    z-index: 1;
+    position: relative;
+  }
+
+  /*
+@mixin ring($width, $height, $border-width, $border-color) {
+    width:$width;
+    height:$height;
+    border-width:$border-width;
+    border-color:$border-color;
+    border-radius: 50%;
+    background: none;
+    margin: auto;
+    border-style:solid;
+    box-shadow: inset 3px 3px 3px 0px darken($border-color, 5%), 3px 3px 3px 0px darken($border-color, 5%);
 }
 
-
-.card-img-top {
-    opacity: 0.6;
-    z-index:1,
+.ring1 {
+@include ring(50px, 50px, 4px, #ff5f01);
+}
+.ring2 {
+@include ring(200px, 200px, 14px, #fccc0a);
 }
 
-.card:hover
-.card-img-top {
-    opacity: 1
-}
-.card:hover
-h4
-{
-opacity: 0
-}
-
-.card:hover
-h6
-{
-color: white;
-font-size:25px;
-top: 210px;
-left:105px; 
-right:20px; 
-position: absolute;
-}
+@mixin ringLoop($width: 20px, $height: 20px, $marginLeft: -7px) {
+    width: $width;
+    height: $height;
+    border: 7px solid #343434;
+    box-shadow: inset 5px 5px 5px 0px #343434, 5px 5px 5px 0px #343434;
+    margin-left: $marginLeft;
+    border-radius: 200%;
+    z-index: 1;
+    position: absolute;
+  
+  }
+  @for $i from 1 through 6 {
+      .ringLoop#{$i} {
+        @include ringLoop($i*20px, $i*20px, $i*-7px)
+      }
+    }
+  */
