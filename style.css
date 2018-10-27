@@ -43,19 +43,53 @@ font-weight: normal;
 font-style: normal;
 }
 
+body {
+    background-image: url("https://lh3.googleusercontent.com/a1yU-3wrp4Sj3mR185xcMBcUKzk3PYVGevcdUKJUIM3BUfVwwWn7llACtTVSE0FIpWtTSUVz9H0d4ZzmaQbciyQvtcLAYk0iMfIuAph45L5VAqz-Yz3CyT1FONfR9nkfihYuuJvl53cyEEHFLfPaP1RxSW-KIbKl5xyyjVsWb-fAU8FArqY1oQdAEAJPxv0L4mKxTs2KRBKmZs-SDJMgRoLOZtyFjLouqrgCR9IqHseBEmcEmA4pXxFchTD3R-y2Z5LKWwVvktoowNPLjptXm05rrcoHJPvK-cCtTk0seK5Y5J1o00EHvbkEYKQ2BiXSQos2cFBnp8e45Uk7dgR3zfi8SZLDap8-WCK_l_FTgSnNdGx8784FjRZrI0P5jrAgMq3cVq4a8QDAWeAemT4tkEeflWKF2xGiqydHvjJ3P-Dxve5rKXOTJfIHIC2QI17GHWu4tOKQBRxAAZNqKwFoUitVJpMRBQ4zYjzaMt-PW-wK1cOsfx-OqmJPd-oJ4-sjIg8hd5eAog-Qt5-Vyz_RcQh1S20_4bhzovdaYVJ5Am7DBQwYlGv2C2GCxpQzBNNozOy1oj7AdWH6JUbLT8EfbPjlhaUxbnLYI2e3C2BMxNhY-Gy7uaIl2ggZ6Dobmrk=s400-no") !important;
+    text: 'pete-klasse_aniron' !important;
+    color: black;
+}
+.subtitle {
+    font-size: 40px
+}
+.subtitle2 {
+    font-size: 17px
+}
 .wrapper {
     border: 1px;
     border-color: darkgrey;
     background-image: url(images/bg_light.png);
 
 }
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
     font-family:'anironregular';
-
 }
 h1 {
     font-family:'anironregular';
     text-align: center;
+}
+p {
+    font-family: 'partybusiness';
+    font-size: 25px;
+}
+.p {
+    font-family: 'Tengwar Annatar Italic';
+}
+ul {
+    padding: 0px;
+    line-height: 30px;
+}
+.white-txt {
+    color: white;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.orange {
+    color: #ff5f01;
+}
+.killers {
+    color: #ff5f01;
+    font-size: 40px;
 }
 
 .navbar {
@@ -84,7 +118,21 @@ h1 {
 .nav-link{
     border-right: 1px solid rgb(255, 202, 121);
 }
+.footer a {
+    color: white;
+}
+.footer a:hover {
+    color: white;
+    opacity: 0.8;
+}
+.brdr-top {
+    border-top: 5px solid #ff5f01;
+    border-bottom: 5px solid #ff5f01;
 
+    }
+.btn {
+    border: 0px;
+}
 .footer {
     background-color: #ff5f01;
     padding-top: 20px;
@@ -95,139 +143,142 @@ h1 {
     font-size: 14px;
 }
 a {
-    color: white;
+    color: black;
 }
 a:hover {
-    color:white;
-    opacity: 0.7;
-    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}
+.padd-top {
+    padding-top:3%;
+}
+.padd-end {
+    padding-bottom: 3%;
+}
+.bgdark {
+    background-image: url(images/bg_dark.png)
+}
+.card-header {
+    background-color: #ff5f01;
+}
+.bodygrey {
+    background-color: #e6e6e6;
+}
+.card {
+    border: #ff5f01;
+}
+.card-img-top {
+    opacity: 0.6;
+    z-index:1,
 }
 
-
-.ring1 {
-    width: 50px;
-    height: 50px;
-    border-width: 4px;
-    border-color: #ff5f01;
-    border-radius: 50%;
-    background: none;
-    margin: auto;
-    border-style: solid;
-    box-shadow: inset 3px 3px 3px 0px #e75500, 3px 3px 3px 0px #e75500;
-  }
-  
-  .ring2 {
-    width: 200px;
-    height: 200px;
-    border-width: 10px;
-    border-color: #fccc0a;
-    border-radius: 50%;
-    background: none;
-    margin: auto;
-    border-style: solid;
-    box-shadow: inset 3px 3px 3px 0px #eabc03, 3px 3px 3px 0px #eabc03;
-  }
-  
-  .ringLoop1 {
-    width: 20px;
-    height: 20px;
-    border: 7px solid #343434;
-    box-shadow: inset 5px 5px 5px 0px #343434, 5px 5px 5px 0px #343434;
-    margin-left: -7px;
-    border-radius: 200%;
-    z-index: 1;
-    position: relative;
-  }
-  
-  .ringLoop2 {
-    width: 40px;
-    height: 40px;
-    border: 7px solid #343434;
-    box-shadow: inset 5px 5px 5px 0px #343434, 5px 5px 5px 0px #343434;
-    margin-left: -14px;
-    border-radius: 200%;
-    z-index: 1;
-    position: relative;
-  }
-  
-  .ringLoop3 {
-    width: 60px;
-    height: 60px;
-    border: 7px solid #343434;
-    box-shadow: inset 5px 5px 5px 0px #343434, 5px 5px 5px 0px #343434;
-    margin-left: -21px;
-    border-radius: 200%;
-    z-index: 1;
-    position: relative;
-  }
-  
-  .ringLoop4 {
-    width: 80px;
-    height: 80px;
-    border: 7px solid #343434;
-    box-shadow: inset 5px 5px 5px 0px #343434, 5px 5px 5px 0px #343434;
-    margin-left: -28px;
-    border-radius: 200%;
-    z-index: 1;
-    position: relative;
-  }
-  
-  .ringLoop5 {
-    width: 100px;
-    height: 100px;
-    border: 7px solid #343434;
-    box-shadow: inset 5px 5px 5px 0px #343434, 5px 5px 5px 0px #343434;
-    margin-left: -35px;
-    border-radius: 200%;
-    z-index: 1;
-    position: relative;
-  }
-  
-  .ringLoop6 {
-    width: 120px;
-    height: 120px;
-    border: 7px solid #343434;
-    box-shadow: inset 5px 5px 5px 0px #343434, 5px 5px 5px 0px #343434;
-    margin-left: -42px;
-    border-radius: 200%;
-    z-index: 1;
-    position: relative;
-  }
-
-  /*
-@mixin ring($width, $height, $border-width, $border-color) {
-    width:$width;
-    height:$height;
-    border-width:$border-width;
-    border-color:$border-color;
-    border-radius: 50%;
-    background: none;
-    margin: auto;
-    border-style:solid;
-    box-shadow: inset 3px 3px 3px 0px darken($border-color, 5%), 3px 3px 3px 0px darken($border-color, 5%);
+.card:hover
+.card-img-top {
+    opacity: 1
 }
 
-.ring1 {
-@include ring(50px, 50px, 4px, #ff5f01);
-}
-.ring2 {
-@include ring(200px, 200px, 14px, #fccc0a);
+.crdtitle {
+    position: relative;
+    top: 170px;
 }
 
-@mixin ringLoop($width: 20px, $height: 20px, $marginLeft: -7px) {
-    width: $width;
-    height: $height;
-    border: 7px solid #343434;
-    box-shadow: inset 5px 5px 5px 0px #343434, 5px 5px 5px 0px #343434;
-    margin-left: $marginLeft;
-    border-radius: 200%;
-    z-index: 1;
+.rwd {
+    opacity: 1;
+}
+.rwd:hover {
+    opacity: 0;
+}
+.rwd2 {
+    opacity: 1;
+}
+.rwd2:hover {
+    opacity: 0;
+}
+/*gandalf*/
+
+.gandalfpic {
+    position: relative;
+}
+.imgovl {
+  opacity: 0.5;
+}
+.imgovl:hover {
+  opacity: 1;
+}
+.gandalfpic:hover .reward {
+  display: none;
+}
+.gandalfpic:hover .reward2 {
+    display: none;
+}
+.gandalftxt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 80px;
+  color: white;
+}
+.reward {
+  border-radius: 15px;
+  position: absolute;
+  top: 48px;
+  left: 5%;
+  opacity: 0.7;
+  font-size: 30px;
+  color: black;
+}
+.reward2 {
+    border-radius: 15px;
     position: absolute;
-  
+    top: 48px;
+    left: 32%;
+    opacity: 0.7;
+    font-size: 30px;
+    color: black;
   }
-  @for $i from 1 through 6 {
-      .ringLoop#{$i} {
-        @include ringLoop($i*20px, $i*20px, $i*-7px)
-      }
-    }
-  */
+.gandalfpic:hover .gandalftxt {
+  font-size: 30px;
+  top: 60%;
+  color: black;
+  text-shadow: 2px 2px 5px #e6e6e6;
+}
+
+
+/* */
+
+
+input::placeholder {
+    font-family:'anironregular';
+}
+textarea::placeholder {
+    font-family:'anironregular';
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    border-bottom: 3px solid #888888;
+}
+td, tr{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #888888;
+    font-family:'anironregular';
+}
+.truc {
+    font-family:'Tengwar Annatar Italic';
+    color: #ff5f01;
+    font-size: 30px;
+}
+.badge {
+    color: #888888;
+}
+.ovl {
+    opacity: 0.5;
+}
+.ovl:hover {
+    opacity: 1;
+}
